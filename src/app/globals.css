@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  width: 100vh;
+  height: 100vh;
+  max-height: 100vh;
+}
+.eltTest {
+  background-color: #5cac0e;
+  position: fixed;
+  height: 90%;
+  width: 90%;
+  overflow-x: hidden;
+  clip-path: circle();
+  z-index: 0;
+}
